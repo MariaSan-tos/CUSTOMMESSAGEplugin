@@ -26,7 +26,7 @@ public final class Teste extends JavaPlugin implements Listener {
         ItemStack Cabeca = new ItemStack(Material.IRON_INGOT, 1);
         ItemMeta CabecaMeta = Cabeca.getItemMeta();
         assert CabecaMeta != null;
-        CabecaMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Ferro Podereso");
+        CabecaMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Ferro Poderoso");
         CabecaMeta.setLore(List.of("Ele te dá o Poder","de enxergar ferros...."));
         Cabeca.setItemMeta(CabecaMeta);
 
